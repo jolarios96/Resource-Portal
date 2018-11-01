@@ -58,10 +58,6 @@ body {
 }
 
 /* Some Bootstrap Overwrites */
-.container {
-    max-width: 100%;
-}
-
 .col-sm {
     padding: 50px;
     border: 2px solid white;
