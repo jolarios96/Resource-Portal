@@ -57,27 +57,6 @@ body {
     background-color: white;
 }
 
-
-
-/* Table Styles */
-table.spaced {
-    border-spacing: 10px;
-    width: 100%;
-}
-
-table.spaced td{
-    margin: 0;
-    padding: 0;
-
-    width: 20%;
-    height: auto;
-    
-    border: 2px solid white;
-    background-color: lightgray;
-
-    transition: background-color .5s;
-}
-
 /* Some Bootstrap Overwrites */
 .container {
     max-width: 100%;
@@ -93,22 +72,9 @@ table.spaced td{
 
 .col-sm h2 {
     text-align: center;
+    display: block;
 }
 
 .col-sm:hover {
     background-color: orange;
-
-}
-
-
-table.spaced td:hover {
-    background-color: orange;
-}
-
-table.spaced h2 {
-    margin: 0;
-    padding: 0;
-
-    text-align: center;
-    line-height: 150px;
 }
