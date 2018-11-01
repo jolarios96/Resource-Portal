@@ -53,8 +53,8 @@ body {
 }
 
 .container {
-    margin: 20px auto;
-    padding: 0 20px;
+    /* margin: 20px auto;
+    padding: 0 20px; */
 
     width: 80%;
     height: auto;
@@ -67,13 +67,15 @@ table.spaced {
     border-spacing: 20px;
 }
 
+table.spaced tr {
+    width: 20%;
+    height: 15%;
+}
+
 table.spaced td{
     margin: 0;
     padding: 0;
 
-    width: 20%;
-    height: 15%;
-    
     background-color: lightgray;
 
     transition: background-color .5s;
@@ -86,9 +88,7 @@ table.spaced td:hover {
 table.spaced h2 {
     margin: 0;
     padding: 0;
-
-
-
+    
     text-align: center;
     line-height: 150px;
 }
