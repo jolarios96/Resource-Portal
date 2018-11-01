@@ -46,7 +46,8 @@ body {
     /* background-color: green; */
 }
 
-.container {
+
+.content {
     margin: 20px auto;
     padding: 15px 20px;
 
@@ -56,13 +57,12 @@ body {
     background-color: white;
 }
 
-.container h1 {
-    line-height: 25px;
-}
+
 
 /* Table Styles */
 table.spaced {
     border-spacing: 10px;
+    width: 100%;
 }
 
 table.spaced td{
@@ -70,12 +70,36 @@ table.spaced td{
     padding: 0;
 
     width: 20%;
-    height: 15%;
+    height: auto;
     
+    border: 2px solid white;
     background-color: lightgray;
 
     transition: background-color .5s;
 }
+
+/* Some Bootstrap Overwrites */
+.container {
+    max-width: 100%;
+}
+
+.col-sm {
+    padding: 50px;
+    border: 2px solid white;
+    background-color: lightgray;
+
+    transition: background-color .5s;
+}
+
+.col-sm h2 {
+    text-align: center;
+}
+
+.col-sm:hover {
+    background-color: orange;
+
+}
+
 
 table.spaced td:hover {
     background-color: orange;
