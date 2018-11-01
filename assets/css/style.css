@@ -1,18 +1,14 @@
 body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+
     margin: 0;
     padding: 0;
 
     min-height: 100%;
 
     background-color: dimgrey;
-
-    /* font-family: 'Roboto', sans-serif; */
 }
-
-/* p {
-    font-size: 20pt;
-    line-height: 50px;
-} */
 
 #header {
     width: 100%;
@@ -54,12 +50,16 @@ body {
 
 .container {
     margin: 20px auto;
-    padding: 0 20px;
+    padding: 1px 20px;
 
     width: 80%;
     height: auto;
 
     background-color: white;
+}
+
+.container h1 {
+    line-height: 25px;
 }
 
 /* Table Styles */
@@ -86,8 +86,6 @@ table.spaced td:hover {
 table.spaced h2 {
     margin: 0;
     padding: 0;
-
-
 
     text-align: center;
     line-height: 150px;
