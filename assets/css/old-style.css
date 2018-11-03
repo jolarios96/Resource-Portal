@@ -1,0 +1,77 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+
+    margin: 0;
+    padding: 0;
+
+    background-color: dimgrey;
+}
+
+#header {
+    width: 100%;
+    height: 75px;
+
+    position: absolute;
+    top: 0;
+
+    background-color: slategray
+}
+
+#footer {
+    width: 100%;
+    height: 75px;
+
+    position: sticky;
+    bottom: 0;
+
+    background-color: slategray
+}
+
+#sidebar {  
+    height: 100%;
+    width: 48px;
+
+    position: fixed;
+    top: 0;
+
+    z-index: 1;
+
+    background-color: silver;
+}
+
+#wrapper {
+    margin-top: 100px;
+    margin-left: 50px;
+    
+    /* background-color: green; */
+}
+
+
+.content {
+    margin: 20px auto;
+    padding: 15px 20px;
+
+    width: 80%;
+    height: auto;
+
+    background-color: white;
+}
+
+/* Some Bootstrap Overwrites */
+.col-sm {
+    padding: 50px;
+    border: 2px solid white;
+    background-color: lightgray;
+
+    transition: background-color .5s;
+}
+
+.col-sm h2 {
+    text-align: center;
+    display: block;
+}
+
+.col-sm:hover {
+    background-color: orange;
+}
